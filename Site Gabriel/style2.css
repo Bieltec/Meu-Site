@@ -1,0 +1,438 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-color: rgb(237, 239, 245);
+        font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
+    }
+    
+    section {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 37.5rem;
+    }
+    
+    .header {
+        background-image: url(Imagens/capa5.jpg);
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #000;
+        padding: 10px;
+    }
+    
+    nav li {
+        letter-spacing: 3px;
+    }
+    
+    .ancora a:hover {
+        opacity: 0.7;
+    }
+    
+    .ancora {
+        display: flex;
+        list-style: none;
+    }
+    
+    .ancora li {
+        margin-left: 32px;
+        font-size: 17px;
+    }
+    
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 0.25rem;
+        font-size: 1.25rem;
+        color: #800000;
+        transition: 0.3s;
+        margin-left: 3.75rem;
+        font-weight: 530;
+    }
+    
+    .logo:hover {
+        opacity: 0.7;
+    }
+    
+    .apresentacao {
+        color: #000;
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .apresentacao h1 {
+        margin-bottom: 50px;
+        line-height: 1.2em;
+        text-align: center;
+        font-size: 88px;
+        font-family: 'Gentium Basic', serif;
+    }
+    
+    .apresentacao p {
+        font-size: 25px;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: #800000;
+        font-weight: 530;
+    }
+    
+    .foto {
+        display: block;
+        text-align: center;
+        margin-top: 10rem;
+    }
+    
+    #sobremim {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 100px;
+    }
+    
+    .sobre {
+        padding: 0 8rem 0 8rem;
+    }
+    
+    .sobre h1 {
+        line-height: 1.5em;
+        text-align: left;
+        font-size: 40px;
+        font-family: 'Gentium Basic', serif;
+    }
+    
+    .sobre h2 {
+        border-bottom: 10px solid #800000;
+        width: 15%;
+        margin-left: 0.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .sobre-text {
+        padding: 30px;
+    }
+    
+    .sobre-text ul {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .sobre-text li {
+        display: flex;
+        flex-direction: row;
+        margin-left: 22px;
+        margin-bottom: 2rem;
+    }
+    
+    .sobre-text a:hover {
+        opacity: 0.7;
+    }
+    
+    #academico {
+        background-image: url(Imagens/capa6.jpg);
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .acdm {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .texto {
+        padding: 20px;
+    }
+    
+    .texto h1 {
+        line-height: 1.5em;
+        font-size: 40px;
+        font-family: 'Gentium Basic', serif;
+        margin-left: 28px;
+        text-transform: uppercase;
+        color: #800000;
+        text-align: center;
+        margin-left: 14rem;
+    }
+    
+    .texto h2 {
+        border-bottom: 10px solid #000;
+        margin-left: 14rem;
+        width: 25%;
+    }
+    
+    .download {
+        padding: 20px;
+    }
+    
+    .curriculo ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    
+    .download a {
+        text-decoration: none;
+        border: 2px solid #800000;
+        font-weight: bold;
+        color: #000;
+        padding: 0.3rem;
+    }
+    
+    #dadosp {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .dados {
+        background-color: rgb(46, 73, 117);
+        width: 100%;
+    }
+    
+    .dados-pessoais {
+        display: flex;
+        justify-content: column;
+        flex-direction: column;
+        margin-top: 4rem;
+        margin-left: 15rem;
+    }
+    
+    .dados-pessoais h1 {
+        line-height: 1.5em;
+        text-align: left;
+        font-size: 2.5rem;
+        font-family: 'Gentium Basic', serif;
+        margin-left: 1.5rem;
+        color: #FFF;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+    }
+    
+    .dados-pessoais h2 {
+        border-bottom: 0.5rem solid #800000;
+        width: 15%;
+        margin-left: 1.5rem;
+    }
+    
+    .dados-a li {
+        color: #FFF;
+        font-weight: bold;
+        padding: 0.8rem;
+        font-size: 1.1rem;
+    }
+    
+    .dados-b li {
+        color: #FFF;
+        padding: 0.8rem;
+        font-size: 1.1rem;
+    }
+    
+    .contato {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+        margin-left: 15rem;
+    }
+    
+    .fale {
+        display: flex;
+        justify-content: column;
+        flex-direction: column;
+        background-color: rgb(187, 200, 221, 1);
+        width: 100%;
+    }
+    
+    .fale-comigo {
+        display: flex;
+        justify-content: column;
+        flex-direction: column;
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
+    
+    .fale-comigo h1 {
+        line-height: 1.5em;
+        text-align: left;
+        font-size: 2.5rem;
+        font-family: 'Gentium Basic', serif;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+    }
+    
+    .fale-comigo h2 {
+        border-bottom: 0.5rem solid #800000;
+        width: 12%;
+    }
+    
+    .comunicacao {
+        text-decoration: none;
+        margin-top: 1.5rem;
+    }
+    
+    .inputbox {
+        position: relative;
+        margin-top: 0.5rem;
+    }
+    
+    .inputuser {
+        background: none;
+        border: none;
+        border-bottom: 1px solid rgb(46, 73, 117);
+        outline: none;
+        color: rgb(46, 73, 117);
+        width: 50%;
+        letter-spacing: 0.1rem;
+        padding: 0.8rem;
+    }
+    
+    .labelinput,
+    .labelmsg,
+    .labelemail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        transition: .5s;
+    }
+    
+    .inputuser:focus~.labelinput,
+    .inputuser:valid {
+        top: -1.1rem;
+        font-size: 0.8rem;
+        color: rgb(0, 66, 172);
+    }
+    
+    .inputuser:focus~.labelmsg,
+    .inputuser:valid {
+        top: -1.1rem;
+        font-size: 0.8rem;
+        color: rgb(0, 66, 172);
+    }
+    
+    .inputuser:focus~.labelemail,
+    .inputuser:valid {
+        top: -1.1rem;
+        font-size: 0.8rem;
+        color: rgb(0, 66, 172);
+    }
+    
+    #submit {
+        background-image: linear-gradient(to right, rgb(46, 73, 117), rgb(81, 83, 199));
+        width: 35%;
+        border: none;
+        padding: 0.8rem;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 8px;
+        margin-left: 3rem;
+    }
+    
+    #submit:hover {
+        background-image: linear-gradient(to right, rgb(31, 63, 116), rgb(30, 30, 70));
+    }
+    
+    .enviar {
+        margin: 0px 40px;
+        width: 30%;
+        padding: 15px 0;
+        background-color: #8a875d;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+    
+    .enviar:hover {
+        background: black;
+        transform: scale(1.1);
+    }
+    
+    .footer {
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .footer-a {
+        width: 100%;
+    }
+    
+    .curriculo-b {
+        width: 50%;
+        border: 2px solid #800000;
+        text-align: center;
+        font-weight: bold;
+        margin: auto;
+        margin-top: 4rem;
+        padding: 0.2rem;
+    }
+    
+    .curriculo-b a {
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+    }
+    
+    .creditos {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-top: 0.5rem;
+    }
+    
+    .creditos p {
+        color: rgb(36, 36, 36);
+        font-size: 10px;
+    }
+    
+    .footer-b {
+        width: 100%;
+        padding: 4rem;
+    }
+    
+    .redes-footer ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .redes-footer li {
+        margin-left: 0.5rem;
+    }
+    
+    .creditos-b {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+    
+    .creditos-b p {
+        color: rgb(36, 36, 36);
+        font-size: 0.7rem;
+    }

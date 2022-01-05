@@ -1,0 +1,340 @@
+@media (max-width: 1380px) {
+    nav {
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    #sobremim {
+        flex-direction: row;
+        height: 100%;
+    }
+    .sobre p {
+        padding: 1rem;
+        margin-bottom: 0rem;
+    }
+    .sobre-text {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 1.8rem;
+    }
+    .sobre-text li {
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+    .curriculo {
+        justify-content: center;
+    }
+    #dadosp {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        height: 450px;
+    }
+    .dados-pessoais h2 {
+        margin: 0;
+        text-align: center;
+    }
+    .contato {
+        width: 100%;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+    }
+    .curriculo-b {
+        margin: auto;
+        width: 40%;
+        padding: 0.3rem;
+        margin-top: 0.3rem;
+    }
+    .fale-comigo {
+        margin: 0;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .fale-comigo h2 {
+        border-bottom: 0.7rem solid #800000;
+        width: 35%;
+    }
+    .enviar {
+        width: 10%;
+    }
+    #submit {
+        width: 50%;
+        padding: 0.8rem;
+        margin-left: 7.5rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .foto {
+        display: block;
+        text-align: center;
+        margin-top: 14rem;
+    }
+    .header {
+        background-image: url(Imagens/capamobile.jpg);
+    }
+    .apresentacao h1 {
+        margin: auto;
+    }
+    #sobremim {
+        height: 400px;
+    }
+    .sobre {
+        margin-left: 0;
+        padding: 0;
+    }
+    .sobre h2,
+    h1 {
+        text-align: center;
+        margin-left: 2rem;
+    }
+    .sobre p {
+        text-align: center;
+    }
+    .curriculo {
+        justify-content: space-around;
+    }
+    .dados-pessoais {
+        margin: 0;
+    }
+    .dados-pessoais h1,
+    h2 {
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+    .fale-comigo h1,
+    h2 {
+        margin: 0;
+    }
+    .dados-pessoais h2 {
+        margin-left: 115px;
+        border: 1px solid #800000;
+    }
+    #submit {
+        margin: 0;
+    }
+    .footer-a {
+        margin-top: 3rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        background-image: url(Imagens/capamobile.jpg);
+    }
+    .apresentacao h1 {
+        margin: auto;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .ancora {
+        justify-content: center;
+    }
+    .ancora li {
+        margin: 0;
+    }
+    .ancora a {
+        font-size: 1rem;
+    }
+    .logo {
+        margin: 0;
+        font-size: 1.25rem;
+        color: #800000;
+    }
+    .apresentacao h1 {
+        font-size: 3rem;
+    }
+    .apresentacao p {
+        font-size: 1.25rem;
+        color: #800000;
+        font-weight: 530;
+    }
+    .header {
+        background-image: url(capa5.jpg);
+    }
+    #sobremim {
+        flex-direction: column;
+        height: 45.3rem;
+    }
+    .sobre {
+        padding: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .sobre h1 {
+        margin-top: 0.6rem;
+        text-align: center;
+    }
+    .sobre h2 {
+        margin: auto;
+        width: 30%;
+        margin-bottom: 1rem;
+    }
+    .sobre-text {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1rem;
+        text-align: center;
+    }
+    .sobre-text li {
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .acdm {
+        display: flex;
+        flex-direction: column;
+    }
+    .texto {
+        margin: auto;
+        padding: 0;
+    }
+    .texto h1 {
+        margin: auto;
+        text-align: center;
+    }
+    .texto h2 {
+        margin: auto;
+    }
+    .download {
+        margin: auto;
+    }
+    .download a {
+        font-size: 1rem;
+        border: 0.1rem solid #800000;
+    }
+    .curriculo {
+        display: none;
+    }
+    .texto h2 {
+        width: 45%;
+    }
+    #dadosp {
+        display: flex;
+        flex-direction: column;
+        height: 870px;
+    }
+    .dados-pessoais {
+        margin: auto;
+        margin-top: 1rem;
+        align-items: center;
+    }
+    .dados-pessoais h2 {
+        border-bottom: 0.1rem solid #800000;
+        width: 25%;
+    }
+    .contato {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .a .fale-comigo {
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .fale-comigo h2 {
+        border-bottom: 0.7rem solid #800000;
+        width: 35%;
+    }
+    .inputbox {
+        margin-top: 0.5rem;
+        margin-right: 4rem;
+    }
+    .inputuser {
+        width: 100%;
+    }
+    .enviar {
+        width: 50%;
+    }
+    #submit {
+        width: 80%;
+        padding: 0.8rem;
+        margin-left: 0.5rem;
+    }
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-a {
+        padding: 0;
+        margin: 1;
+    }
+    .footer-b {
+        padding: 0;
+        margin: 1;
+    }
+}
+
+@media (max-width:700px) {
+    .header {
+        background-image: url(Imagens/capamobile.jpg);
+    }
+    .apresentacao h1 {
+        margin: auto;
+    }
+    #sobremim {
+        height: 550px;
+    }
+    .sobre h1 {
+        margin: auto;
+    }
+    .sobre h2 {
+        width: 10%;
+        margin: auto;
+    }
+    .dados-pessoais h2 {
+        text-align: center;
+        margin: auto;
+        margin-left: 40px;
+        border: 1px solid #800000;
+    }
+}
+
+@media (max-width:630px) {
+    .header {
+        background-image: url(Imagens/capamobile.jpg);
+    }
+    .apresentacao h1 {
+        margin: auto;
+    }
+    #sobremim {
+        height: 600px;
+    }
+    .ancora a {
+        font-size: 0.8rem;
+    }
+    #dadosp {
+        height: 830px;
+    }
+    .dados-a li {
+        font-size: 0.8rem;
+    }
+    .dados-b li {
+        font-size: 0.8rem;
+    }
+    .download a {
+        font-size: 0.8rem;
+        border: 0.2rem solid #800000;
+    }
+    .dados-pessoais h1 {
+        font-size: 1.8rem;
+    }
+    .dados-pessoais h2 {
+        border-bottom: 0.7rem solid #800000;
+        width: 25%;
+        margin-right: 11.5rem;
+    }
+    .fale-comigo h1 {
+        font-size: 1.8rem;
+    }
+    fieldset {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,532 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-color: rgb(237, 239, 245);
+        font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
+    }
+    
+    .ancora {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nav-list-a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        transition: 0.3s;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+    
+    .ancora a:hover {
+        opacity: 0.7;
+    }
+    
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 0.25rem;
+        font-size: 1.25rem;
+        color: rgb(3, 3, 3);
+        text-decoration: none;
+        transition: 0.3s;
+        margin-left: 3.75rem;
+        position: fixed;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+        /* background: transparent; */
+        height: 8vh;
+    }
+    
+    .nav-list {
+        list-style: none;
+        display: flex;
+    }
+    
+    .nav-list li {
+        letter-spacing: 3px;
+        margin-left: 22px;
+    }
+    
+    .nave {
+        margin-right: 900px;
+    }
+    
+    .apresentacao {
+        color: #000;
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .apresentacao h1 {
+        margin-bottom: 50px;
+        line-height: 1.2em;
+        text-align: center;
+        font-size: 88px;
+        font-family: 'Gentium Basic', serif;
+    }
+    
+    .apresentacao p {
+        font-size: 25px;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: rgb(96, 106, 121)
+    }
+    
+    section {
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    #sec-header {
+        background-image: url(capaa.jpg);
+    }
+    
+    .bottom {
+        position: absolute;
+        left: 660px;
+    }
+    
+    .bottom h1 {
+        font-size: 1.25rem;
+        margin-top: 130px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: #FFF;
+        width: 145px;
+    }
+    
+    .texto-c {
+        border: 1px solid;
+    }
+    
+    .foto {
+        position: absolute;
+        left: 618px;
+        top: 500px;
+    }
+    
+    #sobremim {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .sobre {
+        width: 50%;
+        height: 300px;
+        /* border: 2px solid #000; */
+        margin-left: 200px;
+    }
+    
+    .sobre h1 {
+        line-height: 1.5em;
+        text-align: left;
+        font-size: 40px;
+        font-family: 'Gentium Basic', serif;
+        margin-left: 25px;
+    }
+    
+    .sobre h2 {
+        border-bottom: 10px solid #800000;
+        margin: 0px;
+        width: 15%;
+        margin-left: 1.875rem;
+    }
+    
+    .sobre p {
+        margin: 25px;
+        margin-top: 40px;
+        font-size: 17px;
+    }
+    
+    .sobre-text {
+        width: 50%;
+        height: 300px;
+        /* border: 2px solid #000; */
+        margin-right: 200px;
+    }
+    
+    .sobre-text h1 {
+        line-height: 1.5em;
+        text-align: left;
+        font-size: 40px;
+        font-family: 'Gentium Basic', serif;
+        margin-left: 25px;
+    }
+    
+    .sobre-text h2 {
+        border-bottom: 10px solid #800000;
+        width: 15%;
+        margin-left: 30px;
+    }
+    
+    .sobre-text p {
+        margin: 25px;
+        font-size: 17px;
+        margin-top: 105px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    #espaco {
+        width: 100%;
+        height: 200px;
+        float: left;
+        position: relative;
+        left: 720px;
+        top: 205px;
+    }
+    
+    .redes-sociais li {
+        display: inline-block;
+        margin: 5px;
+        margin-top: 18px;
+        margin-bottom: 28px;
+        margin-left: 25px;
+    }
+    
+    #formacao {
+        background-image: url(img1.jpg);
+    }
+    
+    .formacao-text {
+        /* border: 2px solid #000; */
+        width: 50%;
+        margin: auto;
+        position: relative;
+        top: 50px;
+        right: 158px;
+    }
+    
+    .formacao-text h1 {
+        line-height: 1.5em;
+        text-align: left;
+        font-size: 40px;
+        font-family: 'Gentium Basic', serif;
+        margin-left: 28px;
+        text-transform: uppercase;
+        color: #800000;
+    }
+    
+    .formacao-text h2 {
+        border-bottom: 10px solid #000;
+        margin: 0px;
+        width: 15%;
+        margin-left: 30px;
+    }
+    
+    .curriculo {
+        /* border: 2px solid #000; */
+        width: 25%;
+        float: right;
+        position: relative;
+        right: 50px;
+    }
+    
+    .curriculo h3 {
+        border: 2px solid #800000;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .curriculo a {
+        text-decoration: none;
+        color: #000;
+        line-height: 1.5em;
+        font-size: 17px;
+    }
+    
+    .curso-a {
+        margin: auto;
+        width: 950px;
+        height: 400px;
+        position: relative;
+        top: 40px;
+    }
+    
+    .curso-a img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .dadosp {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .dadosp {
+        display: flex;
+    }
+    
+    .dados {
+        width: 50%;
+        height: 100%;
+        background-color: rgb(46, 73, 117);
+    }
+    
+    .dados-pessoais {
+        position: relative;
+        margin-left: 250px;
+        margin-top: 50px;
+        height: 91%;
+    }
+    
+    .dados-pessoais h1 {
+        line-height: 1.5em;
+        text-align: left;
+        font-size: 40px;
+        font-family: 'Gentium Basic', serif;
+        margin-left: 25px;
+        color: #FFF;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    
+    .dados-pessoais h2 {
+        border-bottom: 8px solid #800000;
+        width: 15%;
+        margin-left: 30px;
+    }
+    
+    .dados-a li {
+        color: #FFF;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 17px;
+    }
+    
+    .dados-b {
+        position: absolute;
+        margin-left: 180px;
+        width: 250px;
+        bottom: 146px;
+    }
+    
+    .dados-b li {
+        color: #FFF;
+        padding: 10px;
+        font-size: 17px;
+    }
+    
+    .dados-a {
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 30px;
+        width: 100px;
+    }
+    
+    .fale {
+        width: 50%;
+        height: 10 0%;
+        background-color: rgb(187, 200, 221, 1);
+    }
+    
+    .fale-comigo {
+        position: relative;
+        margin-left: 25px;
+        margin-top: 50px;
+        height: 91%;
+    }
+    
+    .fale-comigo h1 {
+        line-height: 1.5em;
+        text-align: left;
+        font-size: 40px;
+        font-family: 'Gentium Basic', serif;
+        margin-left: 25px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    
+    .fale-comigo h2 {
+        border-bottom: 8px solid #800000;
+        width: 12%;
+        margin-left: 30px;
+    }
+    
+    .comunicacao {
+        text-decoration: none;
+        /* border: 1px solid #000; */
+        width: 60%;
+        height: 63%;
+        position: absolute;
+        top: 120px;
+    }
+    
+    .inputbox {
+        position: relative;
+    }
+    
+    .inputuser {
+        background: none;
+        border: none;
+        border-bottom: 1px solid rgb(46, 73, 117);
+        outline: none;
+        color: rgb(46, 73, 117);
+        width: 100%;
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+    
+    .labelinput,
+    .labelmsg,
+    .labelemail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        transition: .5s;
+    }
+    
+    .inputuser:focus~.labelinput,
+    .inputuser:valid {
+        top: -20px;
+        font-size: 12px;
+        color: rgb(0, 66, 172);
+    }
+    
+    .inputuser:focus~.labelmsg,
+    .inputuser:valid {
+        top: -20px;
+        font-size: 12px;
+        color: rgb(0, 66, 172);
+    }
+    
+    .inputuser:focus~.labelemail,
+    .inputuser:valid {
+        top: -20px;
+        font-size: 12px;
+        color: rgb(0, 66, 172);
+    }
+    
+    #submit {
+        background-image: linear-gradient(to right, rgb(46, 73, 117), rgb(81, 83, 199));
+        width: 40%;
+        border: none;
+        padding: 12px;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 8px;
+        margin-left: 130px;
+    }
+    
+    #submit:hover {
+        background-image: linear-gradient(to right, rgb(31, 63, 116), rgb(30, 30, 70));
+    }
+    
+    .enviar {
+        margin: 0px 40px;
+        width: 30%;
+        padding: 15px 0;
+        background-color: #8a875d;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+    
+    .enviar:hover {
+        background: black;
+        transform: scale(1.1);
+    }
+    
+    .footer {
+        width: 100%;
+        height: 150px;
+        display: flex;
+    }
+    
+    .footer-a {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .footer-b {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .curriculo-b {
+        width: 45%;
+        border: 2px solid #800000;
+        text-align: center;
+        font-weight: bold;
+        margin: auto;
+        margin-top: 65px;
+        padding: 5px;
+    }
+    
+    .curriculo-b a {
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    
+    .creditos {
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        margin-top: 8px;
+    }
+    
+    .creditos p {
+        color: rgb(36, 36, 36);
+        font-size: 10px;
+    }
+    
+    .redes-footer li {
+        position: relative;
+        display: inline-block;
+        margin-left: 07px;
+        top: 60px;
+        left: 250px;
+    }
+    
+    .creditos-b {
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        margin-top: 70px;
+        margin-right: 160px;
+    }
+    
+    .creditos-b p {
+        color: rgb(36, 36, 36);
+        font-size: 10px;
+    }
+    
+    @media (max-width: 1100px) {
+        body html {
+            width: 100%;
+        }
+        .section-header img {
+            text-align: center;
+        }
+        .foto {
+            display: inline-block;
+            text-align: center;
+        }
+    }

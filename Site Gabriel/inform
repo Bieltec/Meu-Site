@@ -1,0 +1,161 @@
+@media (max-width: 1000px) {
+    nav {
+        flex-direction: column;
+    }
+    .ancora {
+        justify-content: center;
+    }
+    .ancora li {
+        margin: 0;
+    }
+    .ancora a {
+        font-size: 1rem;
+    }
+    .logo {
+        margin: 0;
+        font-size: 1.25rem;
+        color: #800000;
+    }
+    .apresentacao h1 {
+        font-size: 3rem;
+    }
+    .apresentacao p {
+        font-size: 1.25rem;
+        color: #800000;
+        font-weight: 530;
+    }
+    .header {
+        background-image: url(capa5.jpg);
+    }
+    #sobremim {
+        flex-direction: column;
+        height: 45.3rem;
+    }
+    .sobre {
+        padding: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .sobre h1 {
+        margin-top: 0.6rem;
+        text-align: center;
+    }
+    .sobre h2 {
+        margin: auto;
+        width: 30%;
+        margin-bottom: 1rem;
+    }
+    .sobre-text {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1rem;
+        text-align: center;
+    }
+    .sobre-text li {
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .acdm {
+        display: flex;
+        flex-direction: column;
+    }
+    .texto {
+        margin: auto;
+        padding: 0;
+    }
+    .texto h1 {
+        margin: auto;
+    }
+    .texto h2 {
+        margin: auto;
+    }
+    .download {
+        margin: auto;
+    }
+    .download a {
+        font-size: 1rem;
+        border: 0.3rem solid #800000;
+    }
+    .curriculo {
+        display: none;
+    }
+    .texto h2 {
+        width: 45%;
+    }
+    #dadosp {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 870px;
+    }
+    .dados-pessoais {
+        margin: auto;
+        margin-top: 1rem;
+        align-items: center;
+    }
+    .dados-pessoais h2 {
+        border-bottom: 0.8rem solid #800000;
+        width: 25%;
+    }
+    .contato {
+        display: flex;
+        flex-direction: row;
+        margin: 4rem;
+    }
+    .fale-comigo {
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .fale-comigo h2 {
+        border-bottom: 0.7rem solid #800000;
+        width: 35%;
+    }
+    .inputbox {
+        margin-top: 0.5rem;
+        margin-right: 4rem;
+    }
+    .inputuser {
+        width: 100%;
+    }
+    .enviar {
+        width: 50%;
+    }
+    #submit {
+        width: 80%;
+        padding: 0.8rem;
+        margin-left: 0.5rem;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-a {
+        padding: 0;
+        margin: 0;
+    }
+    .footer-b {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 0.8rem;
+    }
+    .curriculo-b {
+        margin: auto;
+        width: 70%;
+        padding: 0.3rem;
+        margin-top: 0.3rem;
+    }
+    .creditos {
+        margin: 0;
+        padding: 0;
+        margin-top: 0.4rem;
+    }
+    .creditos-b {
+        margin: 0;
+        margin-top: 0.2rem;
+    }
+    .redes-footer li {
+        margin-left: 0.3rem;
+    }
+}
